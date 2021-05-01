@@ -1,0 +1,7 @@
+---
+- hosts: Infra
+  tasks:
+  - name: Install curl
+    yum:
+      name: curl
+      state:present
